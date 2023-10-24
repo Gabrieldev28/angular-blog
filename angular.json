@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e89d2fde-5dcf-4fb9-bc6c-c80e93d47fc8"
   }
 }
