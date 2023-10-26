@@ -1,0 +1,30 @@
+.container__content{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.content__cover{
+}
+.content__cover>img{
+    border: 2px solid rgb(124, 124, 124);
+    border-radius: 5px;
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+}
+.content__title{
+    margin: 15px 0;
+}
+.content__description{
+    margin: 30px 0 ;
+    width: 500px;
+    text-align: justify;
+}
+.content__description>p{
+    color: #636363;
+}
