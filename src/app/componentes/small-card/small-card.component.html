@@ -1,12 +1,19 @@
 <div class="container__small-card">
     <div class="container__small-card-content">
         <div class="small-card__photo">
-            <img src="../../../assets/img-place.png" width="100%">
+            <img src="{{ imgSmallCard }}" width="100%">
+        </div>
+        <div class="small-card__content">
+            <div class="small-card__title">
+                <h3><a href="#">{{ smallCardTitle }}</a></h3>
+            </div>
+            <div class="small-card_description">
+                <p><a href="#">{{ smallCardDescription }}</a></p>
+            </div>
         </div>
 
-        <div class="small-card__title">
-            <h1><a href="#">Saiu a nova versao do Angular</a></h1>
-        </div>
     </div>
-<div class="container__small-card-separator"><hr></div>
+    <div class="container__small-card-separator">
+        <hr>
+    </div>
 </div>
